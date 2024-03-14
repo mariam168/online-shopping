@@ -1,0 +1,104 @@
+.womenNav{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.women{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0px 100px;
+}
+.women p{
+    position: relative;
+    left: 370px;
+}
+
+.women input{
+    position: relative;
+    top: 10px;
+    height: 40px;
+}
+.items {
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.items h1{
+    color: white;
+    justify-content: center;
+}
+
+.items .itemContent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+.item{
+    width: 270px;
+    height:320px;
+    background-color: azure;
+    margin:  20px 10px;
+   
+}
+.item div{
+    background-color: blue;
+    width: 270px;
+    height: 250px;
+}
+.dress1{
+    background-image: url("");
+    background-size: cover;
+}
+.dress2{
+    background-image: url("");
+    background-size: cover;
+}
+.dress3{
+    background-image: url("");
+    background-size: cover;
+}
+.dress4{
+    background-image: url("");
+    background-size: cover;
+}
+.dress5{
+    background-image: url("");
+    background-size: cover;
+}
+.dress6{
+    background-image: url("");
+    background-size: cover;
+}
+.dress7{
+    background-image: url("");
+    background-size: cover;
+}
+.dress8{
+    background-image: url("");
+    background-size: cover;
+}
+.dress9{
+    background-image: url("");
+    background-size: cover;
+}
+.dress10{
+    background-image: url("");
+    background-size: cover;
+}
+.dress11{
+    background-image: url("");
+    background-size: cover;
+}
+.dress12{
+    background-image: url("");
+    background-size: cover;
+}
+.itemContent .item p{
+    margin-bottom: -10px;
+    margin-left: 5px;
+}

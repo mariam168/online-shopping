@@ -1,0 +1,392 @@
+link:hover,button:hover{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+button {
+    background-color: var(--color2);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-color: transparent;
+    z-index: 100;
+}
+.storeHelp{
+    color: black;
+    background-color:var(--color1);
+    
+}
+.storeHelp .storeHelpContent{
+    margin-left: 80%;
+}
+.storeHelp span{
+    margin: 0 10px;
+}
+.logoSection .logo{
+    width: 150px;
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+.logoSection .search{
+    position: relative;
+    top:-10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: var(--color1);
+    border-color: transparent;
+    
+}
+.logoSection .searchIcon{
+    position: relative;
+    top: -6px;
+    left: -40px;
+    
+}
+
+.logoSection .checkout{
+    position: relative;
+    top:-10px;
+    left: 50%;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-color: transparent;
+}
+.logoSection .chartIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 500px;
+    position: relative;
+    top:10px;
+    z-index: 1000000;
+}
+.logoSection .amount{
+    background-color: var(--color1);
+    border-radius: 50%;
+    padding: 0 3px;
+    position: relative;
+    top:-25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.logoSection .sign{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -110px;
+    top:10px
+}
+nav{
+    background-color: var(--color3);
+    color: white;
+    position: sticky;
+    top:0;
+}
+ nav ul li{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 31px;
+    list-style: none;
+    color: white;
+    
+}
+
+.joinEmail{
+    text-align: center;
+    color: var(--color1);
+    transition: all 10ms ease;
+    -webkit-transition: all 10ms ease;
+    -moz-transition: all 10ms ease;
+    -ms-transition: all 10ms ease;
+    -o-transition: all 10ms ease;
+}
+
+
+.newSeason{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.newSeason .seasonParagraph{
+  position: relative;
+  top: 150px;
+  left: 100px;
+  text-align: center;
+   
+   
+}
+.newSeason .image{
+    width: 700px;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 40px;
+    background-image: url("https://www.next.co.uk/nxtcms/resource/blob/6017984/00b9c13c3a52e4c6e10fac7c5ccee97b/22-02-24-hero-dt-2-min-data.jpg");
+    background-position-y:-60px ;
+}
+.shops h2{
+    text-align: center;
+    color: white;
+}
+.shopContent, .secondShop{
+    display: flex;
+    justify-content: center;
+}
+.shopContent div ,.secondShop div{
+    background: white;
+    border: black 1px solid;
+    width: 405px;
+    height: 400px;
+    margin: 5px;
+}
+.shopContent .men{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6013542/portrait_ratio4x5/560/700/4b8696107942c085c031f7375b6869c8/2ECFF06243834DC689E1B7D1CC930042/07-03-24-block-4-1-min.jpg");
+    background-size: cover;
+}
+.shopContent .minimalism{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6014570/portrait_ratio4x5/560/700/d903a0a5bb001e0f8a126a5c44e1262e/ECFF7FA46B7FB27AE9D81E3F88E645FB/07-03-24-block-5-4-min.jpg");
+    background-size: cover;
+}
+.shopContent .boy{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012538/portrait_ratio4x5/560/700/deda63dee11476d6f2c01744da0acd70/B8DA656F67962C16038329740A75874A/07-03-24-block-6-2-min.jpg");
+    background-size: cover;
+}
+.shopContent h3{
+    margin-top: 300px;
+    margin-left: 15px;
+    color: white;
+}
+.shopContent button{
+    margin-left: 15px;
+    height: 35px;
+    width: 100px;
+}
+.shops .dressCode{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/blob/6017432/a3ce0e73d96ae955a2a28806129a88dc/08-03-24-denim-dt-option-1-min-1--data.jpg");
+    width: 92.5%;
+    height: 350px;
+    margin-left: 50px;
+    background-position-x: -330px;
+    
+}
+.shops .dressCode h1{
+    position: relative;
+    left: 180px;
+    top: 120px;
+    color: white;
+    
+}
+.shops .dressCode button{
+    position: relative;
+    left: 255px;
+    top: 120px;
+}
+.a-zBrand{
+    display: flex;
+    justify-content: center;
+}
+.a-zBrand div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: white;
+    margin: 50px 10px;
+
+}
+.a-zBrand .march{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6013920/portrait_ratio1x1/179/179/177bff3728fd374c2b2816b112fa9a09/91442126AC4B95C04AC3B5B12026CFE5/07-03-24-roundel-1-1-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .hub{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012544/portrait_ratio1x1/179/179/5fea9526944620f81037f7bab79332e6/EC2C658A60E862BC6DE2DA2206043680/07-03-24-roundel-2-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .trend{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012546/portrait_ratio1x1/179/179/d17d4ca42b0b9d0210e50d2d14e43f33/A9E9D812E9CD2329E338A165D4F74921/07-03-24-roundel-3-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .wester{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6014086/portrait_ratio1x1/179/179/8c29e1523eeb3e343b64aef97dffec35/BEE484EFFDAE23C8D101A64FEE551100/22-02-24-roundel5-2-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .easter{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012548/portrait_ratio1x1/179/179/4214195d73214afbb7e89f4226501fac/DE3BD44844C916E8CAF2EF32DB6E4F5A/07-03-24-roundel-5-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .weeding{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012554/portrait_ratio1x1/179/179/ba8a536aa7aea37ce0d3f85f2b901c85/4F1A702108655B85B5B390714BC6B084/07-03-24-roundel-7-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .sweaty{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6015022/portrait_ratio1x1/179/179/9735d89909dd2c618f1179b92d3ce38c/261AE63FC9A775183893A53FD9CB0F5B/group-554-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .eid{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012558/portrait_ratio1x1/179/179/ce53c12cbc7a85c3615a399221e543dd/21A7A270D5B22C96DA8189BBB524889C/07-03-24-roundel-8-1-min.jpg");
+    background-size: cover;
+}
+.a-zBrand .next{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/5996248/portrait_ratio1x1/179/179/263ab4fecb4125a3aa7a701f5b8b573c/1E987DC02A62DC9D50435814BA30E0BB/22-02-24-roundel9-2.jpg");
+    background-size: cover;
+}
+.a-zBrand p{
+    color: white;
+    position: relative;
+    top:120px;
+    text-align: center;
+}
+.secondShop {
+    margin-top: 50px;
+}
+.secondShop .athleisure{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6014652/portrait_ratio4x5/560/700/1321cff6d7df4750e1e59ced13d5cf85/40CE9A910EB3C649D292599C3CB77A1C/07-03-24-block-9-1-.jpg");
+    background-size: cover;
+}
+.secondShop .beds{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6012562/portrait_ratio4x5/560/700/b035ba46296a2a9e9174b6fecef4fcdb/A07220F7B7600ED6DCBE926BCEF461B7/07-03-24-block-8-1-min.jpg");
+    background-size: cover;
+}
+.secondShop .airstrait{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6013844/portrait_ratio4x5/560/700/13f51a4366532be087b99adf05f29119/6EB9B7A204B94B5DBE3D8773F91BF9E2/07-03-24-roundel-7-2-min.jpg");
+    background-size: cover;
+}
+.secondShop h3{
+    margin-top: 310px;
+    color: white;
+    margin-left: 15px;
+}
+.secondShop button{
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    margin-left: 53px;
+    width: 92.2%;
+    overflow: hidden;
+}
+.brands img{
+    width: 155px;
+    background-color: white;
+    margin:30px 14px;
+}
+.latest h2{
+    color: white;
+    margin-left: 60px;
+    margin-bottom: -10px;
+    
+}
+.latestContent{
+    display: flex;
+    justify-content: center;
+    width: 93.4%;
+    margin-left: 45px;
+}
+.latestContent div{
+    width: 450px;
+    height: 400px;
+    margin: 30px 10px;
+}
+.latestContent .lavender{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6015590/portrait_ratio4x5/560/700/9b6f1ace1ab91e0e4d300d03b011a2d9/C1A5301CE30F018B14A0A4E44F8F75A2/edited1-1-min.jpg");
+    background-size: cover;
+}
+.latestContent .bride{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6015592/portrait_ratio4x5/560/700/b6d6cdf3fc5bd68511330a031cc7542d/F2DF8E06B38BD895F8CD3AC04CB8A343/edited2a-1-min.jpg");
+    background-size: cover;
+}
+.latestContent .stripes{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6015594/portrait_ratio4x5/560/700/7964636fe09bebb5e247c5b96c6baac0/044580DC2EAC6D3A13B0A6BFAC65E70D/edited3-4-min.jpg");
+    background-size: cover;
+}
+.latestContent .furniture{
+    background-image: url("https://www.next.co.uk/nxtcms/resource/image/6015596/portrait_ratio4x5/560/700/e0bd8dc697658110cc5ebfadd67e064b/A0FF792CC9CE89F4A952904424DDDB10/edited4-1-min.jpg");
+    background-size: cover;
+}
+.latestContent h4{
+    color: white;
+    margin-top: 430px;
+
+}
+.delivery{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.delivery p{
+    color: white;
+    text-align: center;
+}
+hr{
+    width: 70%;
+    
+}
+.subscribe{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.subscribe p{
+    padding: -5px;
+}
+.subscribe input{
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.subscribe button{
+    width: 350px;
+    margin-top: 10px;
+    
+    height: 45px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+footer{
+    margin-top: 80px;
+    background-color: var(--color3);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+footer .first{
+    font-weight: bold;
+    font-size: larger;
+    color: var(--color2);
+    margin-bottom: 10px;
+}
+footer ul li{
+    padding: 5px;
+}
